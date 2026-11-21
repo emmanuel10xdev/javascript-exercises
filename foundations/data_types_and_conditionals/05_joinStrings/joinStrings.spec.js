@@ -22,6 +22,7 @@ describe('step 3', () => {
   test('fullName is Carlos Stevenson', () => {
     expect(values.fullName).toEqual('Carlos Stevenson');
   });
+  
   test('age is 18', () => {
     expect(values.age).toEqual(18);
   });
